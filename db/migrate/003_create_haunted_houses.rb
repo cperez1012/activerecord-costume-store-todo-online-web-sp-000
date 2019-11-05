@@ -1,4 +1,4 @@
-class HauntedHouse < ActiveRecord:Migration[5.2]
+class HauntedHouse < ActiveRecord::Migration[5.2]
   def change
     create_table :haunted_houses do |h|
       h.string  :name
@@ -8,7 +8,7 @@ class HauntedHouse < ActiveRecord:Migration[5.2]
       h.boolean :family_friend_or_not
       h.datetime  :opening_date
       h.datetime  :closing_date
-      h.string  :long_description
+      h.text  :long_description
     end
   end
 end
