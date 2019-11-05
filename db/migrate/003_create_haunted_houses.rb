@@ -1,4 +1,4 @@
-class CreateHauntedHouse < ActiveRecord::Migration[5.2]
+class CreateHauntedHouses < ActiveRecord::Migration[5.2]
   def change
     create_table :haunted_houses do |h|
       h.string  :name
