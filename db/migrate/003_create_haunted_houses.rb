@@ -5,7 +5,7 @@ class CreateHauntedHouses < ActiveRecord::Migration[5.2]
       h.string  :location
       h.string  :theme
       h.integer :price
-      h.boolean :family_friendly
+      h.boolean :family_friend_or_not
       h.datetime  :opening_date
       h.datetime  :closing_date
       h.text  :description
