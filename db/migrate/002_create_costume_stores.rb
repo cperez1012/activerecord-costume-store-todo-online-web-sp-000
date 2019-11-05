@@ -1,4 +1,4 @@
-class CreateCostumeStore < ActiveRecord::Migration[5.2]
+class CostumeStores < ActiveRecord::Migration[5.2]
   def change
     create_table :costume_stores do |c|
       c.string :name
